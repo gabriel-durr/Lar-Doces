@@ -1,0 +1,321 @@
+/* Reset */
+
+body, h1, h2, h3, p, ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Georgia,serif;
+    color: rgb(185, 151, 158);;
+}
+
+.h2-primeiro {
+    color: #252525;
+    font-family:sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+h1 > p {
+    color: rgb(252, 252, 252);
+    text-shadow: pink 0 0 20px;
+}
+
+h2, h3{
+    color: pink;
+}
+
+/* Menu */
+
+.menu{
+    background: rgb(233, 115, 135);
+    padding: 20px 0;
+}
+
+.menu-container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.menu-container::after, .menu-container::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+a.menu-logo{
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+
+.menu-nav{
+    float: right;
+}
+
+.menu-nav li {
+    display: inline-block;
+}
+
+.menu-nav a {
+    display: block;
+    padding: 7px;
+    text-decoration: none;
+    color: rgb(253, 238, 241);
+    font-size: 1.125em;
+}
+
+/* Intro */
+
+.intro {
+    background: url(./assets/bg\ intro.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 120px 0;
+    text-align: center;
+    color: rgb(255, 249, 252);
+}
+
+.intro h1 {
+    text-transform: uppercase;
+    font-size: 2.6em;
+}
+
+.intro h1::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 4px;
+    background: #fff;
+    margin: 10px auto;
+}
+
+.intro p{
+    font-style: italic;
+    font-size: 1.125em;
+}
+
+/* Sobre */
+
+.sobre{
+    padding: 60px 0;
+}
+
+.sobre-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.sobre-container::after, .sobre-container::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.sobre h2 {
+    text-align: center;
+    font-size: 2.25em;
+    margin-bottom: 60px;
+}
+
+.sobre-item{
+    width: 460px;
+    float: left;
+    margin: 0 10px;
+}
+
+
+.sobre-item img{
+    display: block;
+    max-width: 100%;
+}
+
+.sobre-item h3 {
+    font-size: 2.25em;
+    line-height: 1em;
+    background: rgb(233, 115, 135);
+    width: 220px;
+    color: rgb(255, 249, 252);
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    padding: 5px 0 10px 0;
+    top: -25px;
+    position: relative;
+}
+
+.sobre > p {
+    font-size: 1.125em;
+    line-height: 1.4em;
+    font-style: italic;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 460px;
+}
+
+/* Produtos */
+
+.produtos {
+    background: rgb(253, 253, 253);
+    padding: 30px 0;
+    border-top: 3px solid #684b59;
+    border-bottom: 3px solid #684b59;
+}
+
+.produtos-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.produtos-container::before, .produtos-container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.produtos-item {
+    width: 300px;
+    float: left; 
+    margin: 0 10px 20px 10px;
+}
+
+
+
+
+.produtos-item h2 {
+    text-align: center;
+    font-size: 2.25em;
+    margin-bottom: 20px;
+}
+
+.produtos-item h2::before {
+    content: '';
+    display: block;
+    width: 2px;
+    height: 2px;
+    background: currentColor;
+    border-radius: 50%;
+    margin: 20px auto;
+    border: 5px solid rgb(196, 165, 184);
+    box-shadow: 0 0 0 5px currentColor;
+}
+
+h2.produtos-copo::before {
+    color:rgb(92, 43, 71);
+}
+
+h2.produtos-fondue::before {
+    color:rgb(37, 30, 9);
+}
+
+h2.produtos-mousse::before {
+    color:rgb(224, 73, 73);
+}
+
+
+.produtos-item p {
+    font-size: 0.875em;
+    line-height: 1.4em;
+}
+
+/* Botão Saiba mais */
+
+.produtos-btn {
+    width: 180px;
+    border: 3px solid;
+    color: #252525;
+    text-decoration: none;
+    display: block;
+    font-size: 1.125em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px auto 0 auto;
+    border-radius: 10px;
+}
+
+/* Assine News .. */
+
+.assine {
+    background:rgb(233, 115, 135); 
+    padding: 30px 0;
+}
+
+.assine-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.assine-container::after, .assine-container::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.assine-info {
+    width: 460px;
+    margin: 0 10px;
+    float: left;
+}
+
+.assine-info h2 {
+    font-size: 2.25em;
+}
+
+.assine-info p {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.assine form {
+    width: 460px;
+    margin: 10px 10px 0 10px;
+    float: left;
+}
+
+.assine form label {
+    display: none;
+}
+
+.assine input {
+    box-sizing: border-box;
+    width: 294px;
+    border: 3px solid #252525;
+    background: none;
+    font-size: 1.2em;
+    font-style: italic;
+    font-family: Gergia, serif;
+    padding: 5px;
+    float: left;
+    border-radius: 20px;
+}
+
+.assine button {
+    background: #252525;
+    border: none;
+    font-family: Gergia, serif;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    width: 140px;
+    padding: 13px 0;
+    color: rgb(253, 253, 253);
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+/* Footer */
+
+.footer {
+    background: rgb(243, 218, 238);
+    padding: 40px 0;
+    text-align: center;
+   
+}
+
+.footer img {
+   
+    float: left;
+    margin-right: 20px;
+    display: block;
+}
