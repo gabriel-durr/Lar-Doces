@@ -1,24 +1,26 @@
-<h1 style="text-align: center; font-weight: bold;">Lar-Doces</h1>
+<h2 style="text-align: center; font-weight: bold;">Lar-Doces</h2>
 
-
----
-
-## Sobre o Projeto
+## Sobre o Projeto 💬
 
 Uma page ilustrativa simples, de doces Gourmet. Feita com HTML e CSS Puro.,
 
 
 
+
+
+
+
 - HTML/CSS
-- Reponsive
+- RESPONSIVE
 
-<br>
+<br><br>
 
-## Demo 📸
+## Demo 🖼️
 
 <div align="center" >
-  
-  <img src= "https://media4.giphy.com/media/WmaqR80PcRcW4e8NpI/giphy.gif?cid=790b76119e51cb8e39573ecb4d4c9635c54fa9efab7aa8a1&rid=giphy.gif&ct=g" alt="demo" height="425">
+
+![Doces](https://media0.giphy.com/media/PTT2l4oDcDvmfOmX3f/giphy.gif?cid=790b7611fa508a2c8e6dad5130bb79e762c0e0bf99ca31fc&rid=giphy.gif&ct=g)
+
 </div>
 
 
